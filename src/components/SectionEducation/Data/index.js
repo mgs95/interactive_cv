@@ -25,7 +25,23 @@ const Data = ({ place, year, title, description }) => {
   // be formed by one or more lines. 'descriptions' contains all those elements.
   const descriptions = description.map((el, idx) => {
     const lines = el.map((line, idx2) => {
-      return <div key={ `educationDataLine_${idx2}` }>{ line }</div>;
+      let body = line;
+
+      // Splits URL from more info line and sets it as a link
+      const moreInfo = line.split('More info: ');
+      let link = '';
+
+      if (moreInfo.length > 1) {
+        body = 'More info: ';
+        link = moreInfo[1];
+      }
+
+      return (
+        <div key={ `educationDataLine_${idx2}` }>
+          { body }
+          <a href={link} target='_blank'>{ link }</a>
+        </div>
+      );
     });
 
     return <div

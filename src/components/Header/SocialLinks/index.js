@@ -20,7 +20,7 @@ const CLASS_LINK_ICON = 'SocialLinkIcon';
 const SocialLink = ({ Icon, url }) => (
   <div className={CLASS_LINK}>
     <Icon className={CLASS_LINK_ICON} width={16}/>
-    <span>{ url }</span>
+    <a href={ url } target='_blank'>{ url }</a>
   </div>
 );
 

@@ -1,6 +1,6 @@
 /////////////////                    HEADER                    /////////////////
 export const NAME = 'Mariano Gonzalez Salazar';
-export const WEBSITE_URL = 'marianointeractivecv.pythonanywhere.com';
+export const WEBSITE_URL = 'https://mgs95.github.io/interactive_cv/';
 export const SOCIAL_LINKS = {
   linkedin: 'https://www.linkedin.com/in/marianogs',
   github: 'https://github.com/mgs95'
@@ -136,10 +136,10 @@ export const DATA_PROFESSIONAL_SKILLS = [
     data: [
       {name: 'HTML', score: 90},
       {name: 'D3', score: 90},
+      {name: 'React', score: 88},
       {name: 'JavaScript', score: 81},
       {name: 'CSS', score: 77},
-      {name: 'React', score: 68},
-      {name: 'Redux', score: 54},
+      {name: 'Redux', score: 65},
       {name: 'Webpack', score: 31}
     ]
   },
@@ -148,15 +148,14 @@ export const DATA_PROFESSIONAL_SKILLS = [
     data: [
       {name: 'Photoshop', score: 58},
       {name: 'Blender', score: 52},
-      {name: 'Sony Vegas', score: 44},
       {name: 'Cinema 4D', score: 29},
       {name: 'Premiere', score: 23},
-      {name: 'After Effects', score: 18}
     ]
   },
   {
     title: 'Other',
     data: [
+      {name: 'Algorithms', score: 65},
       {name: 'Unity', score: 44},
       {name: 'Docker', score: 21}
     ]
@@ -258,7 +257,7 @@ export const DATA_HOBBIES = {
             {
               name: 'Problems',
               children: [
-                {name: 'Competitive programming', size: 10}
+                {name: 'Competitive program-ming', size: 10}
               ]
             },
           ]

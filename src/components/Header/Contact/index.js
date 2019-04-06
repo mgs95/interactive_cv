@@ -22,23 +22,30 @@ const CLASS_CLASS_DOTTED_DIVIDER = 'divider-dotted';
  * Represents a contact element. Composed by an icon, the type of contact
  * information and the information itself.
  */
-const ContactRow = ({ data }) => (
-  <div className={CLASS_CONTACT_ELEMENT}>
-    <Icon
-      color={ COLOR_ICON }
-      icon={ICONS[data.icon]}
-      className={CLASS_HEADER_ICONS}
-      size={ SIZE_ICON }
-    />
-    <strong>
-      {data.title}
-    </strong>
-    <span className={CLASS_CLASS_DOTTED_DIVIDER}/>
-    <span>
-      {data.value}
+const ContactRow = ({ data }) => {
+  let value = data.value;
+  if (data.value.includes('.com') && !data.value.includes('@')) {
+    value = <a href={ `http://${value}` } target='_blank'>{ value }</a>;
+  }
+
+  return (
+    <div className={CLASS_CONTACT_ELEMENT}>
+      <Icon
+        color={ COLOR_ICON }
+        icon={ICONS[data.icon]}
+        className={CLASS_HEADER_ICONS}
+        size={ SIZE_ICON }
+      />
+      <strong>
+        {data.title}
+      </strong>
+      <span className={CLASS_CLASS_DOTTED_DIVIDER}/>
+      <span>
+      { value }
     </span>
-  </div>
-);
+    </div>
+  );
+};
 
 ContactRow.propTypes = {
   /** Contact row data, composed by the following fields */

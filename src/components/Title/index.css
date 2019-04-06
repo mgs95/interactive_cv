@@ -1,6 +1,7 @@
 .titleContainer {
   position: relative;
   height: 19px;
+  pointer-events: none;
 }
 
 .titleLine {

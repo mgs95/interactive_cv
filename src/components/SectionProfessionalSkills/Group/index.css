@@ -1,0 +1,50 @@
+.SectionProfessionalSkillsGroup {
+  margin: 15px 0 15px 16px;
+}
+.SectionProfessionalSkillsGroup.group-0 {
+  color: var(--color-blue);
+}
+.SectionProfessionalSkillsGroup.group-0 .SectionProfessionalSkillsGroupSeparator {
+  background-image: linear-gradient(to right, var(--color-blue), transparent);
+}
+
+.SectionProfessionalSkillsGroup.group-1 {
+  color: var(--color-orange);
+}
+.SectionProfessionalSkillsGroup.group-1 .SectionProfessionalSkillsGroupSeparator {
+  background-image: linear-gradient(to right, var(--color-orange), transparent);
+}
+
+.SectionProfessionalSkillsGroup.group-2 {
+  color: var(--color-gray);
+}
+.SectionProfessionalSkillsGroup.group-2 .SectionProfessionalSkillsGroupSeparator {
+  background-image: linear-gradient(to right, var(--color-gray), transparent);
+}
+
+.SectionProfessionalSkillsGroup.group-3 {
+  color: var(--color-green);
+}
+.SectionProfessionalSkillsGroup.group-3 .SectionProfessionalSkillsGroupSeparator {
+  background-image: linear-gradient(to right, var(--color-green), transparent);
+}
+
+.SectionProfessionalSkillsGroup.group-4 {
+  color: var(--color-pink);
+}
+.SectionProfessionalSkillsGroup.group-4 .SectionProfessionalSkillsGroupSeparator {
+  background-image: linear-gradient(to right, var(--color-pink), transparent);
+}
+
+.SectionProfessionalSkillsGroupTitle {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: right;
+  width: 93px;
+  margin: auto 13px auto 0;
+}
+
+.SectionProfessionalSkillsGroupSeparator{
+  width: 25px;
+  margin-right: 20px;
+}

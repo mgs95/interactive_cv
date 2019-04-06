@@ -1,0 +1,37 @@
+.titleContainer {
+  position: relative;
+  height: 19px;
+}
+
+.titleLine {
+  position: absolute;
+  top: -12px;
+  width: 100%;
+  height: 100%;
+  border-bottom: solid black 1px;
+}
+
+.titleText {
+  position: absolute;
+  top: 0;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.titleContainer.left .titleText {
+  padding: 0 5px 0 13px;
+  left: 9px;
+  background: #DFDFDF;
+}
+.titleContainer.left .titleLine {
+  left: 10px;
+  width: calc(100% - 10px);
+}
+
+.titleContainer.right .titleText {
+  padding: 0 13px 0 5px;
+  right: 0;
+  background: #EBE8E8;
+}
+

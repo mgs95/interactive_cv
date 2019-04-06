@@ -1,0 +1,14 @@
+.sectionExperienceContainer {
+  position: relative;
+  padding: 10px 24px 0 20px;
+}
+
+.sectionExperienceLine {
+  position: absolute;
+  left: 41px;
+  height: calc(100% - 25px);
+  margin-top: 6px;
+  width: 1.5px;
+  background: #949494;
+  box-shadow: 0 0 3px 2px #c3c3c3;
+}

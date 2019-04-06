@@ -1,0 +1,30 @@
+.sectionContestsAndAwards_sectionContainer {
+    width: 33%;
+    margin: 4px;
+}
+
+.sectionContestsAndAwards_sectionContainer .sectionContestsAndAwards_sectionTitle {
+    height: 29px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 1px;
+    font-weight: 400;
+}
+.sectionContestsAndAwards_sectionContainer:nth-child(1) .sectionContestsAndAwards_sectionTitle {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-orange)), to(transparent));
+    background-image: -webkit-linear-gradient(top, var(--color-orange), transparent);
+    background-image: -o-linear-gradient(top, var(--color-orange), transparent);
+    background-image: linear-gradient(to bottom, var(--color-orange), transparent);
+}
+.sectionContestsAndAwards_sectionContainer:nth-child(2) .sectionContestsAndAwards_sectionTitle {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-green)), to(transparent));
+    background-image: -webkit-linear-gradient(top, var(--color-green), transparent);
+    background-image: -o-linear-gradient(top, var(--color-green), transparent);
+    background-image: linear-gradient(to bottom, var(--color-green), transparent);
+}
+.sectionContestsAndAwards_sectionContainer:nth-child(3) .sectionContestsAndAwards_sectionTitle {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-blue)), to(transparent));
+    background-image: -webkit-linear-gradient(top, var(--color-blue), transparent);
+    background-image: -o-linear-gradient(top, var(--color-blue), transparent);
+    background-image: linear-gradient(to bottom, var(--color-blue), transparent);
+}

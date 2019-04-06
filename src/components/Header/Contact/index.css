@@ -1,0 +1,7 @@
+.contact-element {
+  justify-content: space-between;
+  height: 25%;
+}
+.contact-element svg{
+  margin: -2px 10px 0 0 !important;
+}

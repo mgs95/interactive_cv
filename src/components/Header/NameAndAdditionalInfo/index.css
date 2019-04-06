@@ -1,0 +1,12 @@
+.name {
+  font-size: 20px;
+  letter-spacing: 1px;
+  border-bottom: var(--border-thin);
+  white-space: nowrap;
+}
+
+.interactive-cv {
+  text-align: right;
+  margin-top: 4px;
+  line-height: 16px;
+}

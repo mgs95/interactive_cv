@@ -1,0 +1,27 @@
+.SectionProfessionalSkillsScore {
+  margin-left: 26px;
+  margin-top: 28px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.SectionProfessionalSkillsScoreMapContainer {
+  margin-left: 26px;
+  margin-right: 16px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.SectionProfessionalSkillsScoreMap {
+  flex-grow: 1;
+  text-align: center;
+}
+.SectionProfessionalSkillsScoreMap:first-child {
+  background-color: #CACACA;
+}
+.SectionProfessionalSkillsScoreMap:nth-child(2) {
+  background-color: #A9A9A9;
+}
+.SectionProfessionalSkillsScoreMap:nth-child(3) {
+  background-color: #909090;
+}

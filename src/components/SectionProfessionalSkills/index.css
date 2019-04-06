@@ -1,0 +1,12 @@
+.SectionProfessionalSkillsContainer {
+  margin-top: 35px;
+}
+
+.SectionProfessionalSkillsGroupLine {
+  height: calc(100% - 103px);
+  width: 2px;
+  background-color: #656565;
+  position: absolute;
+  top: 51px;
+  left: 226px;
+}

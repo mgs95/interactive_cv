@@ -1,0 +1,16 @@
+.CircleProgressContainer {
+  position: relative;
+  user-select: none;
+  border-radius: 50%;
+  background: white;
+  border: solid 2px var(--color-blue);
+  box-shadow: 2px 2px 5px #8c8c8c;
+}
+
+.radial-progress__value {
+  fill: var(--color-green);
+}
+
+.radial-progress__text, .radial-progress__text {
+  fill: var(--color-blue);
+}

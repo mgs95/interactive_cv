@@ -1,0 +1,13 @@
+.App {
+  text-align: left;
+  background-color: gray;
+  padding: 50px 0;
+}
+
+.content {
+  margin: 0 auto;
+  background-color: white;
+  height: 297mm;
+  width: 210mm;
+  font-size: 12px;
+}

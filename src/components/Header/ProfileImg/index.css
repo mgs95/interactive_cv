@@ -1,0 +1,42 @@
+.profileImgContainer {
+  position: absolute;
+  left: 21px;
+  top: 18px;
+}
+
+.profileImgMainCircle, .circleBorder1, .circleBorder2, .circleBorder3 {
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.15;
+}
+
+.profileImgMainCircle {
+  height: 109px;
+  width: 109px;
+  opacity: 1;
+  margin: 8px 0 0 8px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 105px;
+  z-index: 1;
+  -moz-box-shadow: inset 0 0 10px white;
+  -webkit-box-shadow: inset 0 0 10px white;
+  box-shadow: inset 0 0 10px white;
+}
+
+.circleBorder1 {
+  height: 125px;
+  width: 125px;
+}
+.circleBorder2 {
+  height: 119px;
+  width: 119px;
+  margin: 3px 0 0 3px;
+}
+.circleBorder3 {
+  height: 113px;
+  width: 113px;
+  margin: 6px 0 0 6px;
+}

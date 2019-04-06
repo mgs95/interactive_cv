@@ -1,0 +1,14 @@
+.SocialLinksContainer {
+  position: absolute;
+  top: 97px;
+  left: 150px;
+  color: var(--color-gray-1)
+}
+
+.SocialLink {
+  margin-bottom: 4px;
+}
+
+.SocialLinkIcon {
+  margin: 0 10px -3px 0;
+}

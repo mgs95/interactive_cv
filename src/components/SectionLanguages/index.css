@@ -1,0 +1,11 @@
+.SectionLanguagesContainer {
+  justify-content: space-evenly;
+  padding: 7px 20px 0 20px;
+}
+
+.SectionLanguagesLanguage {
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 8px;
+}

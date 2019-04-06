@@ -1,0 +1,16 @@
+.SectionPersonalSkillsContainer{
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: -12px;
+}
+.SectionPersonalSkillsTable {
+  border-spacing: 34px 8px;
+}
+
+.SectionPersonalSkillsTable tr td:nth-child(2) {
+  text-align: center;
+}
+
+.SectionPersonalSkillsTable tr td:nth-child(3) {
+  text-align: right;
+}

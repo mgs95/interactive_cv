@@ -1,0 +1,22 @@
+.sectionContestsAndAwards_rowContainer path {
+    stroke: #929292;
+    stroke-width: 0.7px;
+}
+
+.sectionContestsAndAwards_rowContainer svg {
+    float: left;
+    margin-right: 8px !important;
+}
+
+.sectionContestsAndAwards_rowContainer {
+    float: left;
+    margin: 4px 0;
+}
+.sectionContestsAndAwards_rowFirstLine {
+    font-size: 10px;
+    font-weight: 500;
+}
+.sectionContestsAndAwards_rowSecondLine {
+    font-size: 9px;
+    text-align: right;
+}

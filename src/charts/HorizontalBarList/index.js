@@ -2,10 +2,14 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { select } from "d3-selection";
 import { scaleLinear, scaleBand } from "d3-scale";
-import { ascending } from 'd3-array';
 import { axisLeft, axisTop } from "d3-axis";
 import './index.css';
 
+
+// This is a d3-array function, but there is an error minifying it
+function ascending(a, b) {
+  return a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;
+}
 
 class HorizontalBarList extends React.Component {
   componentDidMount() {

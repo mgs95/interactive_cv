@@ -98,6 +98,13 @@ class Sunburst extends React.Component {
     let i = 0;
     slice.selectAll('path').remove();
     newSlice.append('path')
+      .attr('id', d => {
+        const id = d.data.name.replace(/ /g, '_')
+          .replace('(', '')
+          .replace(')', '')
+          .replace('+', '');
+        return `sunburstPath_${id}`;
+      })
       .attr("display", function (d) { return d.depth > 1 ? null : "none"; })
       .attr("d", arcEl)
       .style('stroke', '#fff')
@@ -135,6 +142,16 @@ class Sunburst extends React.Component {
           case 2:
             return d.value + '%';
           case 3:
+            const id = d.data.name.replace(/ /g, '_')
+              .replace('(', '')
+              .replace(')', '')
+              .replace('+', '');
+            const arcLength = select(`#sunburstPath_${id}`).node().getTotalLength();
+            const textLength = d.data.name.length * 18;
+
+            if (arcLength < textLength) {
+              return '';
+            }
             return d.data.name;
           case 4:
             return d.value + '%';
@@ -159,7 +176,9 @@ class Sunburst extends React.Component {
       .style('text-align', d => computeTextAlign(d))
       .attr('y', '30px')
       .append("text")
-      .text(function(d) { return d.depth === 4 ? d.data.name : '';})
+      .text(d => {
+        return d.depth === 4 ? d.data.name : '';
+      })
       .call(wrap);
 
     let cy = -50;

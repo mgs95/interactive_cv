@@ -1,7 +1,7 @@
 .App {
+  width: stretch;
   text-align: left;
-  background-color: gray;
-  padding: 50px 0;
+  overflow-y: hidden;
 }
 
 .content {
@@ -10,4 +10,15 @@
   height: 297mm;
   width: 210mm;
   font-size: 12px;
+}
+
+a {
+  color: var(--color-gray-1);
+  text-decoration: none;
+}
+
+@media (min-width: 794px) {
+  .App {
+    padding: 50px 0;
+  }
 }

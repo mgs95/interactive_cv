@@ -15,6 +15,7 @@ body {
   padding: 0;
   font-family: Roboto, 'Open Sans', sans-serif;
   color: var(--color-gray-1);
+  background-color: gray;
 }
 strong {
   font-weight: 500 !important;

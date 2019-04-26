@@ -14,6 +14,7 @@ if (process.env.NODE_ENV === 'development') {
 const getStore = () => {
     const initialState = {
         app: {
+            showOnboarding: true
         },
     };
 

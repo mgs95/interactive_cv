@@ -1,3 +1,16 @@
+/////////////////                  ONBOARDING                  /////////////////
+export const DATA_ONBOARDING = [
+  { todo: 'Create CV design (psd format)', done: true },
+  { todo: 'Make a website version based on the design (static)', done: true },
+  { todo: 'Create onboarding with todo list', done: true },
+  { todo: 'Add multi-language functionality (English and Spanish)', done: false },
+  { todo: '[Interaction] Transform URLs into links', done: true },
+  { todo: '[Interaction] Add interactivity to timelines', done: false },
+  { todo: '[Interaction] Add interactivity to charts', done: false },
+  { todo: '[Interaction] Add interactivity to remaining elements', done: false },
+  { todo: 'Add customization (resume version, print, add motivation...)', done: false }
+];
+
 /////////////////                    HEADER                    /////////////////
 export const NAME = 'Mariano Gonzalez Salazar';
 export const WEBSITE_URL = 'https://mgs95.github.io/interactive_cv/';

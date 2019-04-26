@@ -1,0 +1,3 @@
+export const ACTION_TYPES = {
+  HIDE_ONBOARDING: 'HIDE_ONBOARDING'
+};

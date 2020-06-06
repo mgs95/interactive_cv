@@ -1,0 +1,7 @@
+.onboardingTodoContainer {
+  margin-bottom: 4px;
+}
+
+.onboardingTodoText.completed {
+  text-decoration: line-through;
+}

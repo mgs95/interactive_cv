@@ -1,0 +1,75 @@
+.onboardingContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.onboardingBackground {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.onboardingContent {
+  background-color: #EBE7E7;
+  width: 50%;
+  min-width: 333px;
+  max-width: 590px;
+  height: fit-content;
+  padding: 1%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px 2px #3e3e3e;
+}
+
+.onboardingTitle {
+  position: relative;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 2.2vw;
+}
+.onboardingTitle > div:last-child {
+  width: fit-content;
+  margin: auto;
+  padding: 0 20px;
+  background: #EBE7E7;
+}
+
+.onboardingTitleLine {
+  position: absolute;
+  top: -12px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #000;
+  z-index: -1;
+}
+
+.onboardingSubtitle {
+  padding: 0 40px 10px 40px;
+  font-size: 14px;
+}
+
+.onboardingTodos {
+  padding: 0 40px 10px 40px;
+  font-size: 14px;
+}
+
+.onboardingTodos svg {
+  margin: 0 10px !important;
+  flex-shrink: 0;
+}
+
+.onboardingContainer .buttonComponent {
+  margin: 1.2vw auto;
+}

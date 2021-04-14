@@ -107,10 +107,10 @@ export const DATA_EXPERIENCE = [
   {
     place: 'Intelygenz',
     year: [2019, 'today'],
-    title: 'FRONT-END DEVELOPER',
+    title: 'FRONT-END DEVELOPER & DATA VIZ ENGINEER',
     description: [
-      ['Front-end developer at I+D and AI department.'],
-      ['More info: https://intelygenz.com/intelygenz-ai'],
+      ['Front-end developer at R&D and AI department.'],
+      ['More info: https://intelygenz.com'],
     ],
   },
   {
@@ -142,9 +142,9 @@ export const DATA_PROFESSIONAL_SKILLS = [
     title: 'Programming languages',
     data: [
       { name: 'JavaScript', score: 97 },
-      { name: 'Python', score: 95 },
+      { name: 'Python', score: 83 },
       { name: 'TypeScript', score: 80 },
-      { name: 'Java', score: 70 },
+      { name: 'Java', score: 40 },
       { name: 'Go', score: 25 },
     ],
   },
@@ -158,18 +158,17 @@ export const DATA_PROFESSIONAL_SKILLS = [
   {
     title: 'Front-end technologies',
     data: [
-      { name: 'React', score: 92 },
+      { name: 'React', score: 96 },
       { name: 'HTML/CSS', score: 90 },
-      { name: 'D3', score: 90 },
-      { name: 'Apollo', score: 90 },
+      { name: 'Apollo', score: 95 },
     ],
   },
   {
-    title: 'Graphic design',
+    title: 'Data Visualization',
     data: [
-      { name: 'Photoshop', score: 58 },
-      { name: 'Blender', score: 52 },
-      { name: 'Premiere', score: 23 },
+      { name: 'Photoshop', score: 43 },
+      { name: 'Theory', score: 65 },
+      { name: 'D3', score: 95 },
     ],
   },
   {
@@ -177,7 +176,8 @@ export const DATA_PROFESSIONAL_SKILLS = [
     data: [
       { name: 'Algorithms', score: 65 },
       { name: 'Docker', score: 35 },
-      { name: 'Kubernetes', score: 21 },
+      { name: 'Kubernetes', score: 29 },
+      { name: 'GithubActions', score: 75 },
     ],
   },
 ];

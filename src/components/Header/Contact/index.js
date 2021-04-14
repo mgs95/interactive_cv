@@ -24,8 +24,12 @@ const CLASS_CLASS_DOTTED_DIVIDER = 'divider-dotted';
  */
 const ContactRow = ({ data }) => {
   let value = data.value;
-  if (data.value.includes('.com') && !data.value.includes('@')) {
-    value = <a href={ `http://${value}` } target='_blank'>{ value }</a>;
+
+  const isURL = data.value.includes('.com');
+  const isMail = data.value.includes('@');
+  if (isURL || isMail) {
+    const hrefBase = isMail ? 'mailto:' : 'http://';
+    value = <a href={ `${hrefBase}${value}` } target='_blank'>{ value }</a>;
   }
 
   return (

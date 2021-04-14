@@ -55,7 +55,7 @@ const Data = ({ place, year, title, description }) => {
   return (
     <div className={CLASS_DATA_COMPONENT_CONTAINER}>
       <div className={CLASS_DATA_COMPONENT_PLACE}>{place}</div>
-      <div className={CLASS_DATA_COMPONENT_YEAR}>{`${year[0]} - ${year[1]}`}</div>
+      <div className={CLASS_DATA_COMPONENT_YEAR}>{`${year[1]} - ${year[0]}`}</div>
       <div className={CLASS_DATA_COMPONENT_LINE} />
       <div className={CLASS_DATA_COMPONENT_DOT} />
       <div className={CLASS_DATA_COMPONENT_TITLE}>{title}</div>

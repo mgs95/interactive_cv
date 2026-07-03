@@ -1,39 +1,28 @@
 {
-  "name": "marianogs",
-  "version": "0.1.0",
+  "name": "interactive-cv",
+  "version": "2.0.0",
   "private": true,
-  "dependencies": {
-    "d3-array": "^2.0.3",
-    "d3-axis": "^1.0.12",
-    "d3-brush": "^1.0.6",
-    "d3-collection": "^1.0.7",
-    "d3-color": "^1.2.3",
-    "d3-ease": "^1.0.5",
-    "d3-format": "^1.3.2",
-    "d3-hierarchy": "^1.1.8",
-    "d3-interpolate": "^1.3.2",
-    "d3-scale": "^2.1.2",
-    "d3-selection": "^1.3.2",
-    "d3-shape": "^1.2.2",
-    "d3-textwrap": "^2.0.2",
-    "d3-transition": "^1.1.3",
-    "d3-zoom": "^1.7.3",
-    "gh-pages": "^2.0.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-redux": "^7.2.0",
-    "react-scripts": "1.1.4",
-    "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
-  },
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://mgs95.github.io/interactive_cv"
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

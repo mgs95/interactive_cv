@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mariano Gonzalez Salazar — Senior Frontend Engineer at Claap. Interactive CV: experience, education and skills."
+    />
+    <meta property="og:title" content="Mariano Gonzalez — Senior Frontend Engineer" />
+    <meta
+      property="og:description"
+      content="Interactive CV of Mariano Gonzalez Salazar, Senior Frontend Engineer at Claap."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mgs95.github.io/interactive_cv/" />
+    <meta property="og:image" content="https://mgs95.github.io/interactive_cv/ProfileImage.png" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="./favicon.png" type="image/png" />
+    <title>Mariano Gonzalez — Senior Frontend Engineer</title>
+    <script>
+      // Set theme before first paint to avoid a flash of the wrong theme.
+      const stored = localStorage.getItem("theme");
+      const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      document.documentElement.dataset.theme = stored === "light" || stored === "dark" ? stored : preferred;
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
